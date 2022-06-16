@@ -1,0 +1,162 @@
+.imgfundo1{
+    background-image: url("../imagens/pacotes/backgroundpacotes.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulcapapacotes{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 60px;
+    padding-left: 80px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.titulcapapacotes:hover{
+    color: rgb(0, 0, 0);
+    transform: translateY(5px);
+    transition: 0.5s;
+}
+
+.imgspacotes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+.tituloPacotes{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+.tituloPacotes:hover{
+    color: rgb(0, 0, 0);
+    transform: translateY(5px);
+    transition: 0.5s;
+}
+
+.pais img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.pais img:hover{
+    width: 220px;
+    height: 220px;
+    transition: 0.2s;
+    box-shadow: 0 0 2em rgb(233, 233, 233);
+    transform: scale(1.05);
+}
+
+.sessao4{
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sessao4_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+}
+.sessao4_1 img{
+    height: 320px;
+    width: 425px;
+}
+.sessao4_1 img:hover{
+    transition: 0.5s;
+    height: 350px;
+    width: 455px;
+}
+.sessao5{
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sessao5_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+}
+.sessao5_1 img{
+    height: 320px;
+    width: 425px;
+}
+
+.sessao5_1 img:hover{
+    transition: 0.5s;
+    height: 350px;
+    width: 455px;
+}
+.sessao6{
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sessao6_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+}
+.sessao6_1 img{
+    height: 320px;
+    width: 425px;
+}
+.sessao6_1 img:hover{
+    transition: 0.5s;
+    height: 350px;
+    width: 455px;
+}
+
+.sessoes h3{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.sessoes h5{
+    color: rgb(209, 209, 209);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sessoes h5:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}

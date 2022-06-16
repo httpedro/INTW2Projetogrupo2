@@ -1,0 +1,169 @@
+#capa1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.829);
+    background-image: url("../imagens/index/backgroundindex.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+#capa1 img{
+    margin-top: 30px;
+    margin-left: 70px;
+    width: 70px;
+}
+
+#capa1 h1{
+    width: 100px;
+}
+
+.sessao1{
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(165, 164, 164);
+    transition: 0.5s;
+    width: 90%;
+}
+.sessao1:hover{
+    width: 90%;
+    transition: 0.5s;
+    transform: translateX(1em);
+    color: rgb(0, 0, 0);
+}
+
+.sessao2{
+    height: 600px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../imagens/index/MapaM.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    border-bottom: 2px dashed  rgb(240, 240, 240);
+    border-top: 2px dashed rgb(240, 240, 240);
+    color: rgb(165, 164, 164);
+    transition: 0.5s;
+}
+
+.sessao2 img{
+    width: 100px;
+}
+
+.sessao2:hover h3{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    transform: translateZ(10px) translateY(5px);
+}
+.sessao2:hover img{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    transform: translateZ(10px) translateY(5px);
+}
+
+.sessao3{
+    height: 700px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(214, 214, 214),rgb(255, 255, 255));
+}
+
+.tituloform{
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+.subdiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.subdiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subdiv1 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    
+}
+
+
+.formulario{
+    height: 200px;
+    width: 40%;
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 1em rgb(82, 82, 82);
+    background-color: white;
+    border-radius: 5px;
+}
+form .formulario .titulo{
+    text-align: center;
+}
+
+.formulario button{
+    color: rgba(255, 255, 255, 0.911);
+    background-color: rgb(37, 37, 37);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.formulario button:hover{
+    transition: 0.2s;
+    box-shadow: 0 0 2em rgb(233, 233, 233);
+    transform: scale(1.05);
+    color: rgba(255, 255, 255, 0.911);
+    background-color: rgb(37, 37, 37);
+}
+
+
+form .formulario .linha1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario input{
+    width: 98%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+}
+.formulario textarea{
+    width: 98%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
